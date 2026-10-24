@@ -210,7 +210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6b2fd2bf74b73418a867b717eaa1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaypointCircuit
-  gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  showPath: 0
+  toggleKey: 21
+  pathColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  lineWidth: 0.1
+  lineHeight: 0.05
   gizmoRadius: 1
   closedLoop: 1
 --- !u!4 &287508583
@@ -559,7 +563,7 @@ MonoBehaviour:
   circuit: {fileID: 287508582}
   speed: 17
   rotSpeed: 5
-  wpRadius: 1
+  wpRadius: 2
   ignoreHeight: 1
   useTracker: 1
   showTracker: 1
@@ -1497,7 +1501,7 @@ MonoBehaviour:
   circuit: {fileID: 287508582}
   speed: 18
   rotSpeed: 5
-  wpRadius: 1
+  wpRadius: 2
   ignoreHeight: 1
   useTracker: 1
   showTracker: 1
@@ -1689,7 +1693,7 @@ MonoBehaviour:
   circuit: {fileID: 287508582}
   speed: 15
   rotSpeed: 5
-  wpRadius: 1
+  wpRadius: 2
   ignoreHeight: 1
   useTracker: 1
   showTracker: 1
@@ -2177,7 +2181,7 @@ MonoBehaviour:
   circuit: {fileID: 287508582}
   speed: 15
   rotSpeed: 5
-  wpRadius: 1
+  wpRadius: 2
   ignoreHeight: 1
   useTracker: 1
   showTracker: 1
